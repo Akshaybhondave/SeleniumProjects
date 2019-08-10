@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG" duration-ms="108406" started-at="2019-07-19T19:45:52Z" finished-at="2019-07-19T19:47:41Z">
+    <groups>
+    </groups>
+    <test name="VtigerUsingXML" duration-ms="108406" started-at="2019-07-19T19:45:52Z" finished-at="2019-07-19T19:47:41Z">
+      <class name="com.automation.session7TestNG.VtigerUsingXML">
+        <test-method status="PASS" signature="browserOpening()[pri:0, instance:com.automation.session7TestNG.VtigerUsingXML@c038203]" name="browserOpening" is-config="true" duration-ms="15291" started-at="2019-07-19T19:45:52Z" finished-at="2019-07-19T19:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpening -->
+        <test-method status="PASS" signature="userLogin(java.lang.String, java.lang.String)[pri:0, instance:com.automation.session7TestNG.VtigerUsingXML@c038203]" name="userLogin" is-config="true" duration-ms="9920" started-at="2019-07-19T19:46:08Z" finished-at="2019-07-19T19:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="leadCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.automation.session7TestNG.VtigerUsingXML@c038203]" name="leadCreation" duration-ms="7048" started-at="2019-07-19T19:46:18Z" finished-at="2019-07-19T19:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[White]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Devil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[465641684]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mind-Your-Own-Business]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[DonjenMaster@hotmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadCreation -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.automation.session7TestNG.VtigerUsingXML@c038203]" name="logOut" is-config="true" duration-ms="8063" started-at="2019-07-19T19:46:25Z" finished-at="2019-07-19T19:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="userLogin(java.lang.String, java.lang.String)[pri:0, instance:com.automation.session7TestNG.VtigerUsingXML@c038203]" name="userLogin" is-config="true" duration-ms="3098" started-at="2019-07-19T19:46:33Z" finished-at="2019-07-19T19:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="leadModify()[pri:2, instance:com.automation.session7TestNG.VtigerUsingXML@c038203]" name="leadModify" duration-ms="21525" started-at="2019-07-19T19:46:36Z" finished-at="2019-07-19T19:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadModify -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.automation.session7TestNG.VtigerUsingXML@c038203]" name="logOut" is-config="true" duration-ms="13071" started-at="2019-07-19T19:46:57Z" finished-at="2019-07-19T19:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="userLogin(java.lang.String, java.lang.String)[pri:0, instance:com.automation.session7TestNG.VtigerUsingXML@c038203]" name="userLogin" is-config="true" duration-ms="3568" started-at="2019-07-19T19:47:10Z" finished-at="2019-07-19T19:47:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="leadDelete()[pri:3, instance:com.automation.session7TestNG.VtigerUsingXML@c038203]" name="leadDelete" duration-ms="11430" started-at="2019-07-19T19:47:14Z" finished-at="2019-07-19T19:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadDelete -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.automation.session7TestNG.VtigerUsingXML@c038203]" name="logOut" is-config="true" duration-ms="13136" started-at="2019-07-19T19:47:25Z" finished-at="2019-07-19T19:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.automation.session7TestNG.VtigerUsingXML@c038203]" name="browserClose" is-config="true" duration-ms="2215" started-at="2019-07-19T19:47:38Z" finished-at="2019-07-19T19:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.automation.session7TestNG.VtigerUsingXML -->
+    </test> <!-- VtigerUsingXML -->
+  </suite> <!-- TestNG -->
+</testng-results>

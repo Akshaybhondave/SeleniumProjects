@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG]">
+  <test thread-count="5" name="VtigerUsingXML(failed)">
+    <parameter name="password" value="admin"/>
+    <parameter name="firstname" value="White"/>
+    <parameter name="phone" value="465641684"/>
+    <parameter name="company" value="Mind-Your-Own-Business"/>
+    <parameter name="email" value="DonjenMaster@hotmail.com"/>
+    <parameter name="username" value="admin"/>
+    <parameter name="lastname" value="Devil"/>
+    <classes>
+      <class name="com.automation.session7TestNG.VtigerUsingXML">
+        <methods>
+          <include name="browserClose"/>
+          <include name="leadDelete"/>
+          <include name="leadModify"/>
+          <include name="logOut"/>
+          <include name="userLogin"/>
+          <include name="browserOpening"/>
+        </methods>
+      </class> <!-- com.automation.session7TestNG.VtigerUsingXML -->
+    </classes>
+  </test> <!-- VtigerUsingXML(failed) -->
+</suite> <!-- Failed suite [TestNG] -->

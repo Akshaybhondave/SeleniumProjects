@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG">
+  <test thread-count="5" name="VtigerUsingXML">
+  	<parameter name="username" value="admin"/>
+	<parameter name="password" value="admin"/>
+	<parameter name="firstname"  value="White"/>
+	<parameter name="lastname"   value="Devil"/>
+	<parameter name="phone"     value="465641684"/>
+	<parameter name="company"    value="Mind-Your-Own-Business"/>
+	<parameter name="email"   value="DonjenMaster@hotmail.com"/>
+	
+	
+  
+    <classes>
+     
+      <class name="com.automation.session7TestNG.VtigerUsingXML"/>
+    </classes>
+  </test> <!-- VtigerTest -->
+</suite> <!-- TestNG -->
