@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110978" started-at="2019-08-01T18:34:39Z" finished-at="2019-08-01T18:36:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="110978" started-at="2019-08-01T18:34:39Z" finished-at="2019-08-01T18:36:30Z">
+      <class name="com.vtiger.webpageScripts.LeadPageScript">
+        <test-method status="PASS" signature="leadModify()[pri:3, instance:com.vtiger.webpageScripts.LeadPageScript@77caeb3e]" name="leadModify" duration-ms="49619" started-at="2019-08-01T18:35:27Z" finished-at="2019-08-01T18:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadModify -->
+      </class> <!-- com.vtiger.webpageScripts.LeadPageScript -->
+      <class name="com.vtiger.webpageScripts.LeadPageDelete">
+        <test-method status="PASS" signature="deleteLead()[pri:4, instance:com.vtiger.webpageScripts.LeadPageDelete@66a3ffec]" name="deleteLead" duration-ms="13843" started-at="2019-08-01T18:36:16Z" finished-at="2019-08-01T18:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLead -->
+      </class> <!-- com.vtiger.webpageScripts.LeadPageDelete -->
+      <class name="com.vtiger.webpageScripts.LoginPageScript">
+        <test-method status="PASS" signature="loginIntoVtigerApp()[pri:1, instance:com.vtiger.webpageScripts.LoginPageScript@1e88b3c]" name="loginIntoVtigerApp" duration-ms="39545" started-at="2019-08-01T18:34:39Z" finished-at="2019-08-01T18:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoVtigerApp -->
+      </class> <!-- com.vtiger.webpageScripts.LoginPageScript -->
+      <class name="com.vtiger.webpageScripts.DashBoardPageScript">
+        <test-method status="PASS" signature="leadCreation()[pri:2, instance:com.vtiger.webpageScripts.DashBoardPageScript@42d80b78]" name="leadCreation" duration-ms="7903" started-at="2019-08-01T18:35:19Z" finished-at="2019-08-01T18:35:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadCreation -->
+      </class> <!-- com.vtiger.webpageScripts.DashBoardPageScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
